@@ -1,0 +1,16 @@
+domain: sysbind.io
+layout:
+- go.kubebuilder.io/v3
+projectName: moodle-operator
+repo: github.com/sysbind/moodle-operator
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: sysbind.io
+  group: webapp
+  kind: Runtime
+  path: github.com/sysbind/moodle-operator/api/v1
+  version: v1
+version: "3"

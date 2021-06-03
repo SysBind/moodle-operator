@@ -1,0 +1,7 @@
+apiVersion: webapp.sysbind.io/v1
+kind: Runtime
+metadata:
+  name: runtime-sample
+spec:
+  # Add fields here
+  foo: bar
